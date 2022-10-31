@@ -301,26 +301,31 @@ img {
 }
 .form-check-label {
   display: block;
+  width: 16px;
+  height: 15px;
 }
 .castom-checkbox {
   position: relative;
   display: inline-block;
-  width: 16px;
-  height: 15px;
+  width: 100%;
+  height: 100%;
   border-radius: 2px;
   cursor: pointer;
   border: 2px solid var(--dark);
 }
 .form-check-item:checked + .castom-checkbox {
   background-color: var(--blue);
-  background-image: url(../images/box1.jpg);
+  background-image: url(../images/icon-vector.svg);
   border: 2px solid var(--blue);
-}
+  }
 .form-checkbox-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey);
+}
+.send-link {
+  color: var(--blue);
 }
 
 /* 
