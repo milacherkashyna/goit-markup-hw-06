@@ -598,13 +598,14 @@ img {
 }
 .subscribe-input {
   padding: 15px 16px;
-  border-radius: 4px;
+  width: 358px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--white);
   background-color: transparent;
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .subscribe-input::placeholder {
